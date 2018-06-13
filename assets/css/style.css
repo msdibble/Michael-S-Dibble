@@ -12,11 +12,11 @@ nav {
 
 }
 
-#topNav {
+#navbarNav {
     overflow: hidden;
 }
 
-#topNav a {
+#navbarNav a {
     float: right;
     display: block;
     color: white;
@@ -27,12 +27,12 @@ nav {
     font-family: "Baloo Chettan", sans-serif;
 }
 
-#topNav a:hover {
+#navbarNav a:hover {
     background-color: white;
     color: black;
 }
 
-#topNav .icon {
+#navbarNav .icon {
     display: none;
 }
 
@@ -42,7 +42,7 @@ nav {
 }
 
 h1 {
-    font-size: 60px;
+    font-size: 40px;
     font-family: "Baloo Chettan", cursive;
     color: black;
 }
@@ -82,10 +82,24 @@ button {
     font-family: "Baloo Chettan", cursive;
 }
 
-/* .container {
+.projectContainer {
     display: flex;
-    flex-direction: row;
-} */
+    flex-direction: column;
+    align-content: center;
+}
+
+figure {
+    margin: 30px;
+    border: 10px;
+}
+
+figcaption {
+    font-family: "Baloo Chettan", cursive;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    width: inherit;
+}
 
 footer {
     background-color: black;
@@ -94,15 +108,6 @@ footer {
     flex-direction: row;
 }
 
-.hangman {
-    color: white;
-    background-color: teal;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    text-align: center;
-    align-content: center;
-    width: 70%;
-}
 
 
 
