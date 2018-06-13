@@ -36,7 +36,6 @@ nav {
     display: none;
 }
 
-
 .navbar-header {
     color: white;
 }
@@ -89,25 +88,36 @@ button {
 }
 
 figure {
+    display: table; 
     margin: 30px;
-    border: 10px;
 }
 
 figcaption {
+    display: table-caption;
+    caption-side: bottom;
     font-family: "Baloo Chettan", cursive;
     font-size: 20px;
     color: white;
     background-color: black;
-    width: inherit;
 }
 
 footer {
     background-color: black;
     padding: 35px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
+.portfolio-footer ul{
+    align-items: center;
+}
 
+.portfolio-footer-text {
+    text-align: center;
+}
 
+.social-icons {
+    display: flex;
+    flex-direction: row;
+}
 
