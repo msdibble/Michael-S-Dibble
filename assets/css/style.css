@@ -82,10 +82,10 @@ button {
     font-family: "Baloo Chettan", cursive;
 }
 
-.container {
+/* .container {
     display: flex;
     flex-direction: row;
-}
+} */
 
 footer {
     background-color: black;
