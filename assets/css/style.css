@@ -1,0 +1,81 @@
+nav {
+    background-color: black;
+}
+
+
+#portfolio-logo {
+    font-family: "Dancing Script", sans-serif;
+    font-weight: bolder;
+    font-size: 50px;
+    padding-left: 20px;
+    color: white;
+
+}
+
+#topNav {
+    overflow: hidden;
+}
+
+#topNav a {
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: "Baloo Chettan", sans-serif;
+}
+
+#topNav a:hover {
+    background-color: white;
+    color: black;
+}
+
+#topNav .icon {
+    display: none;
+}
+
+
+.navbar-header {
+    color: white;
+}
+
+h1 {
+    font-size: 60px;
+    font-family: "Baloo Chettan", cursive;
+    color: black;
+}
+
+#portfolio-photo {
+    border-radius: 100%;
+}
+
+.portfolio-pics .img {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    align-content: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    font-family: "Baloo Chettan", cursive;
+}
+
+button {
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: "Baloo Chettan", cursive;
+}
+
+footer {
+    background-color: black;
+    padding: 35px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+
