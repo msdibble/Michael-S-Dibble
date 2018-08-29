@@ -1,123 +1,36 @@
-nav {
-    background-color: black;
+html,
+body {
+   height: 100%;    
 }
 
-
-#portfolio-logo {
-    font-family: "Dancing Script", sans-serif;
-    font-weight: bolder;
-    font-size: 50px;
-    padding-left: 20px;
+#cover {
+    background: url(earth_horizon_image.jpg) center center no-repeat;
+    background-size: cover;
     color: white;
-
-}
-
-#navbarNav {
-    overflow: hidden;
-}
-
-#navbarNav a {
-    float: right;
-    display: block;
-    color: white;
+    height: 100%;
     text-align: center;
-    padding: 15px;
-    text-decoration: none;
-    font-size: 25px;
-    font-family: "Baloo Chettan", sans-serif;
-}
-
-#navbarNav a:hover {
-    background-color: white;
-    color: black;
-}
-
-#navbarNav .icon {
-    display: none;
-}
-
-.navbar-header {
-    color: white;
-}
-
-h1 {
-    font-size: 40px;
-    font-family: "Baloo Chettan", cursive;
-    color: black;
-}
-
-h2 {
-    font-size: 30px;
-    font-family: "Baloo Chettan", cursive;
-    color: black;
-}
-
-p {
-    font-size: 20px;
-    font-family: "Baloo Chettan", cursive;
-    color: black;
-}
-
-#portfolio-photo {
-    border-radius: 100%;
-}
-
-.portfolio-pics .img {
+    font-family: Permanent Marker, monospace;
     display: flex;
-    flex-direction: row;
-    padding: 5px;
-    align-content: center;
-}
-
-form {
-    display: flex;
-    flex-direction: column;
-    font-family: "Baloo Chettan", cursive;
-}
-
-button {
-    font-size: 20px;
-    font-weight: bolder;
-    font-family: "Baloo Chettan", cursive;
-}
-
-.projectContainer {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-}
-
-figure {
-    display: table; 
-    margin: 30px;
-}
-
-figcaption {
-    display: table-caption;
-    caption-side: bottom;
-    font-family: "Baloo Chettan", cursive;
-    font-size: 20px;
-    color: white;
-    background-color: black;
-}
-
-footer {
-    background-color: black;
-    padding: 35px;
-    display: flex;
-    flex-direction: column;
-}
-
-.portfolio-footer ul{
     align-items: center;
 }
 
-.portfolio-footer-text {
-    text-align: center;
+#cover-caption {
+    width: 100%;
 }
 
-.social-icons {
-    display: flex;
-    flex-direction: row;
+.navbar .navbar-brand {
+    font-family: Permanent Marker, monospace;
+    font-size: 45px;
+
 }
+
+.navbar-collapse .nav-link {
+    font-family: Permanent Marker, monospace;
+    color: white;
+    font-size: 25px;
+}
+
+
+
+
 
