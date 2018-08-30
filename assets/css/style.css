@@ -14,6 +14,10 @@ body {
     align-items: center;
 }
 
+#biography {
+
+}
+
 #cover-caption {
     width: 100%;
 }
@@ -30,6 +34,17 @@ body {
     font-size: 25px;
 }
 
+#bio {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#headshot {
+    margin: 40px;
+    size: 20%;
+    border-radius: 50%;
+    border-color: black;
+}
 
 
 
