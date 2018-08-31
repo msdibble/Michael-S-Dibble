@@ -9,43 +9,75 @@ body {
     color: white;
     height: 100%;
     text-align: center;
-    font-family: Permanent Marker, monospace;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display: flex;
     align-items: center;
 }
 
-#biography {
-
+.container {
+    width: 100%;
 }
 
 #cover-caption {
     width: 100%;
 }
 
+.navbar-fixed-top {
+    top: 0;
+}
+
 .navbar .navbar-brand {
-    font-family: Permanent Marker, monospace;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 45px;
 
 }
 
 .navbar-collapse .nav-link {
-    font-family: Permanent Marker, monospace;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
     font-size: 25px;
+}
+
+#biography {
+    background-color: skyblue;
 }
 
 #bio {
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #0B0B61;
 }
 
 #headshot {
     margin: 40px;
     size: 20%;
     border-radius: 50%;
-    border-color: black;
 }
 
+.bio-pics {
+    margin: 20px;
+}
+
+#presentation-pic {
+    margin: 20px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: #0B0B61;
+}
+
+#berlin-pic {
+    margin: 20px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: #0B0B61;
+}
+
+#code-pic {
+    margin: 20px;
+    border-style: solid;
+    border-width: 10px;
+    border-color: #0B0B61;
+}
 
 
 
