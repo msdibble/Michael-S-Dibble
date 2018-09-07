@@ -126,8 +126,22 @@ hr {
 }
 
 .project-links > div {
+    display: flex;
+    flex-direction: column;
     margin: 40px;
     text-align: center;
+    align-items: center;
+}
+
+.btn {
+    margin-top: 15px;
+    width: 120px;
+    background-color: #2ECCFA;
+    font-weight: bold;
+}
+
+.project-links > div > button > a {
+    color: #0B0B61;
 }
 
 .project-links > div > a > img {
@@ -140,3 +154,24 @@ h3 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+footer {
+    text-align: center;
+    align-items: center;
+    background-color: #0B173B;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+}
+
+.contact-title {
+    padding-top: 20px;
+}
+
+.contact-info > ul {
+    display: flex;
+    flex-direction: row;
+}
+
+ul {
+     list-style-type: none;
+}
