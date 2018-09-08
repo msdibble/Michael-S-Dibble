@@ -167,11 +167,15 @@ footer {
     padding-top: 20px;
 }
 
-.contact-info > ul {
-    display: flex;
-    flex-direction: row;
+.contact-info {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.contact-info > a {
+    margin: 30px;
 }
 
 ul {
-     list-style-type: none;
+    list-style-type: none;
 }
