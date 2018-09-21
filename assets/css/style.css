@@ -1,188 +1,37 @@
-html,
-body {
-   height: 100%;   
-   margin: 0;
-   padding: 0; 
+:root {
+    --jumbotron-padding-y: 3rem;
 }
 
-#cover {
-    background: url(earth_horizon_image.jpg) center center no-repeat;
+.bg-dark {
+    background-color: #0B0B61!important;
+}
+
+.jumbotron {
+    padding-top: var(--jumbotron-padding-y);
+    padding-bottom: var(--jumbotron-padding-y);
+    margin-bottom: 0;
+    background-color: lightblue;
+    background-image: url("../images/earth_horizon_image.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
     background-size: cover;
     color: white;
-    height: 100%;
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    display: flex;
-    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    border-radius: 0%;
 }
 
-.container {
-    width: 100%;
-}
-
-#cover-caption {
-    width: 100%;
-}
-
-.navbar-fixed-top {
-    top: 0;
-}
-
-.navbar .navbar-brand {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 45px;
-
-}
-
-.navbar-collapse .nav-link {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: white;
-    font-size: 25px;
-}
-
-hr {
-    color: black;
-}
-
-#biography {
-    background-color: skyblue;
-    margin: 0;
-    padding: 0;
-}
-
-#bio {
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: #0B0B61;
-}
-
-#headshot {
-    margin: 40px;
-    size: 20%;
-    border-radius: 50%;
-}
-
-.bio-title {
-    padding-top: 50px;
-}
-
-
-.bio-pics {
-    margin: 20px;
-}
-
-.bio-info {
-    padding-bottom: 50px;
-    margin: 0;
-}
-
-#presentation-pic {
-    margin: 20px;
-    border-style: solid;
-    border-width: 10px;
-    border-color: #0B0B61;
-}
-
-#berlin-pic {
-    margin: 20px;
-    border-style: solid;
-    border-width: 10px;
-    border-color: #0B0B61;
-}
-
-#code-pic {
-    margin: 20px;
-    border-style: solid;
-    border-width: 10px;
-    border-color: #0B0B61;
-}
-
-#projects {
-    background-color: #003d66;
-}
-
-#proj {
-    text-align: center;
-}
-
-.projects-title {
-    margin: 0;
-    padding-top: 40px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: white;
-    padding-bottom: 20px;
-}
-
-.proj-info {
-    color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: 50;
-}
-
-.project-links {
-   text-align: center;
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: space-between;
-}
-
-.project-links > div {
-    display: flex;
-    flex-direction: column;
-    margin: 40px;
-    text-align: center;
-    align-items: center;
-}
-
-@media screen and (max-width: 1000px) {
-    .project-links > div {
-        width: 100%;
-    }
-}
-
-.btn {
-    margin-top: 15px;
-    width: 120px;
-    background-color: #2ECCFA;
-    font-weight: bold;
-}
-
-.project-links > div > button > a {
-    color: #0B0B61;
-}
-
-.project-links > div > a > img {
-    border-style: solid;
-    border-color: white;
-}
-
-h3 {
-    color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-footer {
-    text-align: center;
-    align-items: center;
-    background-color: #0B173B;
-    color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.jumbotron-heading {
+    font-size: 3rem;
     font-weight: bolder;
 }
 
-.contact-title {
-    padding-top: 20px;
+.card-img-top {
+    width: 30%;
+    border-radius: 50%;
 }
 
-.contact-info {
-    text-align: center;
-    padding-bottom: 40px;
+.jumbotron-text {
+    font-size: 2rem;
 }
 
-.contact-info > a {
-    margin: 30px;
-}
-
-ul {
-    list-style-type: none;
-}
