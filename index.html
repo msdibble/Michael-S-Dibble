@@ -4,40 +4,37 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Michael S. Dibble</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css"/>
     
 </head>
 <body>
 
+
+<!-- Header containg links to all sections of website -->
 <header>
     <div class="collapse bg-dark" id="navbarHeader">
         <div class="container">
             <div class="row">
-                <div class="col-sm-8 col-md-7 py-4">
-                    <h4 class="text-white">BIOGRAPHY</h4>
-                    <p class="text-muted"></p>
-                </div>
-                <div class="col-sm-4 offset-md-1 py-4">
-                    <h4 class="text-white">Contact</h4>
+                <div class="col-sm-10 offset-md-1 py-4">
                     <ul class="list-unstyled">
-                      <li><a href="mailto:mdibble93@gmail.com" target="_blank" class="btn-social button-outline" style="max-width: 100%;">
-                            <i class="fa fa-envelope-o fa-4x"></i> 
-                        </a></li>
-                      <li><a href="#" class="text-white">Like on Facebook</a></li>
-                      <li><a href="#" class="text-white">Email me</a></li>
+                      <li><a class="nav-link" href="#biography-section" style="color: white;">BIOGRAPHY</a></li>
+                      <li><a class="nav-link" href="https://drive.google.com/open?id=1M163FDZM81MOArFfD1hF0rDHNR95TcmE" target="_blank" style="color: white;">RESUME</a></li>
+                      <li><a class="nav-link" href="#projects-section" style="color: white;">PORTFOLIO</a></li>
+                      <li><a class="nav-link" href="#contact-section" style="color: white;">CONTACT</a></li>
                     </ul>
                 </div>
             </div>
         </div>
     </div>
-        <div class="navbar navbar-static-top navbar-dark bg-dark shadow-sm">
-            <div class="container d-flex justify-content-between">
-                <a href="#" class="navbar-brand d-flex align-items-center">
-                  <strong style="font-size: 3rem;">MD</strong>
-                </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+    <div class="navbar navbar-static-top navbar-dark bg-dark shadow-sm">
+        <div class="container d-flex justify-content-between">
+            <a href="#" class="navbar-brand d-flex align-items-center">
+                <strong style="font-size: 3rem;">MD</strong>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation" style="color:white;">
                 <span class="navbar-toggler-icon"></span>
             </button>
         </div>
@@ -46,16 +43,123 @@
 
 <main role="main">
     
+<!-- Introduction jumbotron and brief description -->
 <section class="jumbotron text-center">
     <div class="container">
         <h1 class="jumbotron-heading">Michael Dibble</h1>
         <p class="jumbotron-text">Scientist . Developer . Designer . Lifelong Learner</p>
-        <img class="card-img-top" src="assets/images/HEADSHOT.jpg" alt="portfolio-headshot"/>
     </div>
 </section>
 
+
+<!-- Biography section -->
+<div id="biography-section"> 
+    <div class="container">
+        <h1 style="font-size: 45px; font-weight: bolder;">About Me</h1>
+        <img id="headshot" src="assets/images/HEADSHOT.jpg" style="border-radius: 50%; max-width: 100%;">
+        <p>I am a Geospatial Information Systems(GIS) professional and web developer from Atlanta, GA. I have a BS in Geology and a minor in GIS from GA Southern University and a certificate in Full Stack Web Development from GA Tech. I enjoy learning about advancements in science and technology and my interests include geoinformatics, remote sensing, web/software development, data science/analytics and UI/UX Design.</p>
+    </div>
+</div>
+
+<!-- Portfolio section containing projects -->
+<div id="projects-section">
+    <div class="container">
+        <h1 style="padding: 1rem;">Portfolio</h1>
+        <p>Projects that I have worked on my own and contributed to during the GA Tech Web Development Immersion Program and as side projects.</p>
+        <hr style="border-color: white;">
+
+        <div class="row">
+            <div class="col-md-4">
+                <h4 style="max-width: 100%;">Crystal Clicker</h4>
+                <div class="card mb-4 shadow-sm">
+                    <a href="https://msdibble.github.io/week-4-game/" target="_blank"><img class="card-img-top" src="assets/images/crystal_clicking_game.png" style="max-width: 100%;"></a>
+                    <div class="card-body" style="background-color: #3BB9FF;">
+                        <div>
+                            <button class="btn" style="background-color:#151B54;"><a href="https://github.com/msdibble/week-4-game" target="_blank">Github Repo</a></button>
+                        </div>
+                    </div>      
+                </div>
+            </div>
+            <div class="col-md-4">
+                <h4 style="max-width: 100%;">GIFTED</h4>
+                <div class="card mb-4 shadow-sm">
+                    <a href="https://msdibble.github.io/GIFTED/" target="_blank"><img class="card-img-top" src="assets/images/GIFTED.png" style="max-width: 100%;"></a>
+                    <div class="card-body" style="background-color: #3BB9FF;">
+                        <div>
+                            <button class="btn" style="background-color: #151B54;"><a href="https://github.com/msdibble/GIFTED" target="_blank">Github Repo</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <h4 style="max-width: 100%;">Hangman</h4>
+                <div class="card mb-4 shadow-sm">
+                    <a href="https://msdibble.github.io/Hangman-Game/" target="_blank"><img class="card-img-top" src="assets/images/got_hangman.png" style="max-width: 100%;"></a>
+                    <div class="card-body" style="background-color: #3BB9FF;">
+                        <div>
+                            <button class="btn" style="background-color: #151B54;"><a href="https://github.com/msdibble/Hangman-Game" target="_blank">Github Repo</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <h4 style="max-width: 100%;">SyneScribble</h4>
+                <div class="card mb-4 shadow-sm">
+                    <a href="https://aarick-f.github.io/synescribble/" target="_blank"><img class="card-img-top" src="assets/images/synescribble.png" style="max-width: 100%;"></a>
+                    <div class="card-body" style="background-color: #3BB9FF;">
+                        <div>
+                            <button class="btn" style="background-color: #151B54;"><a href="https://github.com/msdibble/synescribble" target="_blank">Github Repo</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <h4 style="max-width: 100%;">Train Time Keeper</h4>
+                <div class="card mb-4 shadow-sm">
+                    <a href="https://msdibble.github.io/Train-App/" target="_blank"><img class="card-img-top" src="assets/images/train_time_app.png" style="max-width: 100%;"></a>
+                    <div class="card-body" style="background-color: #3BB9FF;">
+                        <div>
+                            <button class="btn" style="background-color: #151B54;"><a href="https://github.com/msdibble/Train-App" target="_blank">Github Repo</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <h4 style="max-width: 100%;">Space Trivia</h4>
+                <div class="card mb-4 shadow-sm">
+                    <a href="https://msdibble.github.io/TriviaGame/" target="_blank"><img class="card-img-top" src="assets/images/trivia_game.png" style="max-width: 100%;"></a>
+                    <div class="card-body" style="background-color: #3BB9FF;">
+                        <div>
+                            <button class="btn" style="background-color: #151B54;"><a href="https://github.com/msdibble/TriviaGame" target="_blank">Github Repo</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 </main>
 
+<!-- Contact section containing links to contact information -->
+<footer id="contact-section">
+    <div class="container">
+        <h1 class="contact-title">Contact Me</h1>
+        <div class="contact-info">
+            <a href="mailto:mdibble93@gmail.com" target="_blank" class="btn-social button-outline">
+                <i class="fa fa-envelope-o fa-4x" style="width: 5vw;"></i> 
+            </a>
+            <a href="https://github.com/msdibble" target="_blank" class="btn-social button-outline">
+                <i class="fa fa-github fa-4x" style="width: 5vw;"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/michael-dibble-5b020ba1/" target="_blank" class="btn-social button-outline">
+                <i class="fa fa-linkedin fa-4x" style="width: 5vw;"></i>
+            </a>
+        </div>
+        <br>
+        <p>Copyright © Michael Dibble 2018</p>
+    </div>
+</footer>
 
 
 

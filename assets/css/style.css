@@ -6,6 +6,16 @@
     background-color: #0B0B61!important;
 }
 
+.list-unstyled {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.list-unstyled :hover{
+    color: skyblue;
+}
+
 .jumbotron {
     padding-top: var(--jumbotron-padding-y);
     padding-bottom: var(--jumbotron-padding-y);
@@ -19,6 +29,14 @@
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
     border-radius: 0%;
+    text-shadow: 4px 4px black;
+}
+
+@media (min-width: 768px) {
+    .jumbotron {
+        padding-top: calc(var(--jumbotron-padding-y) * 2);
+        padding-bottom: calc(var(--jumbotron-padding-y) * 2);
+    }
 }
 
 .jumbotron-heading {
@@ -26,12 +44,68 @@
     font-weight: bolder;
 }
 
-.card-img-top {
-    width: 30%;
-    border-radius: 50%;
-}
-
 .jumbotron-text {
     font-size: 2rem;
 }
 
+.jumbotron .container {
+    max-width: 40rem;
+    background: rgba(255, 255, 255, 0.5);
+    color: white;
+    padding: 1rem;
+}
+
+#biography-section {
+    text-align: center;
+    background-color: skyblue;
+    color: #0B0B61;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 1rem;
+}
+
+#headshot {
+    border-radius: 50%;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+#projects-section {
+    text-align: center;
+    background-color: #003d66;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    padding-bottom: 10px;
+}
+
+#projects-section > h1 {
+    padding: 2rem;
+}
+
+#contact-section {
+    text-align: center;
+    margin: 0;
+}
+
+footer {
+    text-align: center;
+    align-items: center;
+    background-color: #0B173B;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    padding: 20px;
+    margin: 0;
+}
+
+.contact-info {
+    text-align: center;
+    
+}
+
+.contact-info > a {
+    margin: 30px;
+}
+
+ul {
+    list-style-type: none;
+}
